@@ -31,8 +31,14 @@ What to submit:
 
 Output (in JSON)
 
-{ "remaining_cookies": "Amount of cookies remaining after trying to fulfill orders", "unfulfilled_orders": [ "IDs of the order that couldn't be fulfilled in ascending order" ] }
+{
+  "remaining_cookies": "Amount of cookies remaining after trying to fulfill orders",
+  "unfulfilled_orders": [ "IDs of the order that couldn't be fulfilled in ascending order" ]
+}
 
 *Example Answer Output
 
-{ "remaining_cookies": 0, "unfulfilled_orders": [ 3, 5 ] }
+{
+  "remaining_cookies": 0,
+  "unfulfilled_orders": [ 3, 5 ]
+}
