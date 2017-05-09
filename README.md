@@ -3,12 +3,19 @@ My solution to the Shopify Back End Development Problem
 
 The resulting JSON:
 {
+
   "remaining_cookies": 0,
+  
   "unfulfilled_orders": [
+  
     7,
+    
     8,
+    
     11
+    
   ]
+  
 }
 
 (The following text was pulled from the Shopify's google doc containing the challenge):
@@ -32,13 +39,19 @@ What to submit:
 Output (in JSON)
 
 {
+
   "remaining_cookies": "Amount of cookies remaining after trying to fulfill orders",
+  
   "unfulfilled_orders": [ "IDs of the order that couldn't be fulfilled in ascending order" ]
+  
 }
 
 *Example Answer Output
 
 {
+
   "remaining_cookies": 0,
+  
   "unfulfilled_orders": [ 3, 5 ]
+  
 }
